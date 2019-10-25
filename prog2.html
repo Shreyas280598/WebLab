@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<title>Squares and cubes</title>
+		<style>
+		table {
+				padding: 10px;
+				border: solid;
+				width: 10%;
+		}
+
+		th {
+				background-color: #6157A7;
+				color: white;
+				padding: 5px;
+		}
+
+		td {
+				
+				padding: 2px;
+				text-align: center;
+		}
+		</style>
+		
+		<script>
+		document.write("<table><tr><th>NUM</th><th>SQUARE</th><th>CUBE</th></tr>")
+		for(var num=0; num<=10; num++)
+			document.write("<tr><td>" + num + "</td><td>"+ num*num + "</td><td>" + num*num*num + "</td></tr>")
+		document.write("</table>")
+		</script>
+	
+	</head>
+</html>
